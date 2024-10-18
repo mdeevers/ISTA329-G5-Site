@@ -1,1 +1,37 @@
+/* 
+:root {
+    global styling variables here
+}
+*/
 
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C0C0C0;
+    margin: 0;
+    padding: 0 24px;
+    height: 70px;
+}
+header {
+    max-width: 100vw;
+    min-width: none;
+    overflow: hidden;
+}
+.header-container > h1, .header-container > nav {
+    width: 50%;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+nav > button {
+    margin-left: 20px;
+}
